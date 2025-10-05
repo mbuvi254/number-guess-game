@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Numbers Game</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  
+<div class="container">
+  <h1>Number Guessing Game</h1>
+  <h5>Guess a number between 1 and 100</h5>
+  <button id="newGameBtn" onclick="newGame()">New Game</button>
+    <section id="gamePage">
+        <p>Attempts: <span id="remAttempts"></span></p>
+        <p id="result"></p>
+        <p>Score:<span id="score"></span></p>
+        <p>Number :<span id="ranNo"></span></p>
+        <form id="gameForm">
+            <input id="noAns" placeholder="Enter your guess" required>
+            <button type="submit">Guess</button>
+        </form>
+    </section>
+</div>
+
+ <script src="js/main.js"></script>
+</body>
+</html>
+
