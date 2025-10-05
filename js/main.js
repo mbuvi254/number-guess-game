@@ -28,6 +28,7 @@ document.getElementById("gameForm").addEventListener("submit", function(e) {
         document.getElementById("score").innerHTML = score;
         document.getElementById("gameForm").style.display = "none";
         document.getElementById("newGameBtn").style.display="block";
+        //C
     } 
     else if (guess < ranNo) {
         result.innerHTML = `${guess} is too low!`;
@@ -51,5 +52,5 @@ document.getElementById("gameForm").addEventListener("submit", function(e) {
         result.innerHTML = `Game Over! The number was ${ranNo}.`;
         document.getElementById("gameForm").style.display = "none";
     }
-    
+
 });
